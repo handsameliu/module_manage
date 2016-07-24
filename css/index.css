@@ -1,0 +1,694 @@
+@charset "utf-8";
+html, body {
+    width: 100%;
+    height:100%;
+    color: #FFFFFF;
+    font-size: 100px;
+    overflow: hidden;
+}
+a, a:active, a:hover, a:visited, a:target {
+    color: #FFFFFF;
+}
+.swiper-container,.swiper-wrapper,.swiper-slide{
+    height:100%;
+}
+.swiper-slide,.swiper-slide,.swiper-slide,.swiper-slide,.swiper-slide,.swiper-slide{
+    background: url("../img/dabeijing.png") no-repeat;
+    background-size: 100% 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+.swiper-slide .page1,.swiper-slide .page2,.swiper-slide .page3,.swiper-slide .page4,.swiper-slide .page5,.swiper-slide .page6{
+    position: relative;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    overflow: hidden;
+}
+.line_bg {
+    position: absolute;
+    background: url("../img/xiexian.png") no-repeat center;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    color: rgb(103, 103, 103);
+    transform: none;
+    overflow: hidden;
+    /*animation*/
+    /*animation: flipInY 1s ease 0s 1 both;*/
+}
+.line_bg img{
+    display: block;
+    width: 6.32rem;
+    height: 6.6rem;
+    margin-top: 0;
+    margin-left: 0;
+}
+.page1 .yuan_bg {
+    position: absolute;
+    top: 1.98rem;
+    left: 0.86rem;
+    /*width:100%;
+    height:100%;*/
+    background-color: rgb(219, 29, 59);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.page1 .yuan_bg img {
+    display: block;
+    width:4.66rem;
+    height:4.66rem;
+    margin-top: 0;
+    margin-left: 0;
+    transform: none;
+    /*animation*/
+    /*animation: rotateIn 15s ease 0s 1 both;*/
+}
+.page1 .resume{
+    position: absolute;
+    top: 7.3rem;
+    left: 2.05rem;
+    width: 2.52rem;
+    height: 0.38rem;
+    font-size: 0.48rem;
+    transform: none;
+    /*animation: zoomIn 1s ease 0.3s 1 both;*/
+}
+.page1 .yuan_bg .jianli{
+    position: absolute;
+    background: url("../img/jianli660.svg") no-repeat center center;
+    width: 1.6rem;
+    height: 3.2rem;
+    top: 0.76rem;
+    left: 1.54rem;
+    transform: none;
+    z-index: 6;
+    /*animation: zoomIn 1s ease 0.3s 1 both;*/
+}
+/*-----------------------page2*/
+.title{
+    position: absolute;
+    top: 0.6rem;
+    left: 2.25rem;
+    margin:0 auto;
+    text-align: center;
+    /*width: 100%;
+    height: 100%;*/
+    font-size: 0.48rem;
+    transform: none;
+    /*animation: flipInX 1s ease 0.5s 1 both;*//*bounceIn*/
+}
+.title>span{
+    color: rgba(204, 208, 255, 0.992157);
+    font-size: 0.48rem;
+    width: 2.54rem;
+    height: 1.54rem;
+    cursor: default;
+}
+.page2 .items{
+    position: relative;
+    top:2rem;
+    left:0.76rem;
+    width: 2.43rem
+}
+.page2 .items .items_list>li{
+    width: 4.86rem;
+    height: 0.8rem;
+    margin-bottom:0.3rem;
+    transform: rotateZ(0deg);
+    opacity: 0.7;
+    background: url("../img/bg_blue.svg")no-repeat;
+    /*animation: lightSpeedIn 3s ease 0s 1 both;*/
+}
+.page2 .items .items_list>li .items_con{
+    position: absolute;
+    top:0.2rem;
+    left:0.6rem;
+    font-size: 0.36rem;
+    color: #fff;
+    /*animation: fadeIn 2.5s ease 0s 1 both;*/
+}
+/*-----------------------page3*/
+.page3 .page3_bg{
+    position: absolute;
+    top:1.8rem;
+    left:0.76rem;
+    width:4.86rem;
+    height:7.46rem;
+    background: url("../img/bg_blue.svg")no-repeat;
+}
+.page3 .tab_item{
+    position: relative;
+    top:2.8rem;
+    left:0.76rem;
+    width:4.86rem;
+    height:5rem;
+    box-sizing: content-box;
+}
+.page3 .tab_item>div{
+    position: absolute;
+    border:1px solid #fff;
+    font-size:0.32rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+.page3 .tab_item .node{
+    top: 0;
+    left:0;
+    width:1.89rem;
+    height:0.8rem;
+    font-weight: bold;
+    font-size:0.36rem;
+    line-height: 0.8rem;
+    /*animation: fadeInLeft 2s ease 0s 1 both;*/
+}
+.page3 .tab_item .h4{
+    top:0;
+    left:1.88rem;
+    width:1.81rem;
+    height:0.8rem;
+    font-size:0.36rem;
+    line-height: 0.8rem;
+    /*animation: fadeInDown 2s ease 0s 1 both;*/
+}
+.page3 .tab_item .css2{
+    top: 0;
+    right:0;
+    width:1.19rem;
+    height:0.8rem;
+    font-size:0.36rem;
+    line-height: 0.8rem;
+    /*animation: fadeInRight 2s ease 0s 1 both;*/
+}
+.page3 .tab_item .jss{
+    top: 0.79rem;
+    left:0;
+    width:4.87rem;
+    height:1.5rem;
+    font-size:0.96rem;
+    line-height: 1.5rem;
+    /*animation: fadeInLeft 2s ease 0.2s 1 both;*/
+}
+.page3 .tab_item .java{
+    top: 2.28rem;
+    left:0;
+    width:1.3rem;
+    height:0.96rem;
+    font-size:0.36rem;
+    line-height: 0.96rem;
+    /*animation: fadeInLeft 2s ease 0.4s 1 both;*/
+}
+.page3 .tab_item .h5{
+    top: 2.28rem;
+    left:1.28rem;
+    width:2.12rem;
+    height:1.32rem;
+    font-size:0.96rem;
+    line-height: 1.32;
+    /*animation: fadeInUp 2s ease 0.4s 1 both;*/
+}
+.page3 .tab_item .css3{
+    top: 2.28rem;
+    right:0;
+    width:1.48rem;
+    height:0.78rem;
+    font-size:0.36rem;
+    line-height: 0.78rem;
+    /*animation: fadeInRight 2s ease 0.4s 1 both;*/
+}
+.page3 .tab_item .cpt{
+    top: 3.21rem;
+    left:0;
+    width:1.3rem;
+    height:0.92rem;
+    font-size:0.36rem;
+    line-height: 0.92rem;
+    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+}
+.page3 .tab_item .jq{
+    top: 3.59rem;
+    left:1.27rem;
+    width:2.14rem;
+    height:0.53rem;
+    font-size:0.32rem;
+    line-height: 0.53rem;
+    /*animation: fadeInUp 2s ease 0.8s 1 both;*/
+}
+.page3 .tab_item .module{
+    top: 3.04rem;
+    right:0;
+    width:1.47rem;
+    height:0.94rem;
+    font-size:0.36rem;
+    line-height: 0.94rem;
+    /*animation: fadeInUp 2s ease 0.6s 1 both;*/
+}
+.page3 .tab_item .git{
+    top: 4.11rem;
+    left:0;
+    width:1.5rem;
+    height:0.89rem;
+    font-size:0.32rem;
+    line-height: 0.89rem;
+    /*animation: fadeInUp 2s ease 0.8s 1 both;*/
+}
+.page3 .tab_item .swp{
+    top: 4.11rem;
+    left:1.49rem;
+    width:1.92rem;
+    height:0.89rem;
+    font-size:0.36rem;
+    line-height: 0.89rem;
+    /*animation: fadeInUp 2s ease 1s 1 both;*/
+}
+.page3 .tab_item .mobile{
+    top: 3.96rem;
+    right:0;
+    width:1.465rem;
+    height:1.03rem;
+    font-size:0.36rem;
+    line-height: 1.03rem;
+    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+}
+/*----------------------------------page4*/
+.page4 .page4_bg{
+    position: absolute;
+    width: 4.86rem;
+    height: 3.6rem;
+    background: url("../img/bg_blue.svg")no-repeat;
+}
+.page4 .page4_t{
+    top:1.8rem;
+    left:0.76rem;
+    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+}
+.page4 .page4_b{
+    top:5.8rem;
+    left:0.76rem;
+    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+}
+.page4 .jobList{
+    position: absolute;
+    top:0;
+    width:4.8rem;
+    height:3.6rem;
+    font-size: 0.32rem;
+    line-height: 0.4rem;
+}
+.page4 .jobName{
+    width:4.4rem;
+    position: absolute;
+    left:0.4rem;
+    top:0.5rem;
+    /*animation: zoomInDown 2s ease 2s 1 both;*/
+}
+.page4 .jobContent{
+    width:4.4rem;
+    position: absolute;
+    left:0.4rem;
+    top:1.5rem;
+    /*animation: zoomInUp 2s ease 2s 1 both;*/
+}
+.arrows{
+    position: absolute;
+    width:0.3rem;
+    height:0.2rem;
+    background: url("../img/jt_bg.svg")no-repeat;
+    /*animation: fadeInLeft 3s ease 0.6s 1 both;*/
+}
+.page4 .arrows_t1{
+    left:0;
+    top:0.6rem;
+    /*animation: fadeInRight 3s ease 2s 1 both;*/
+}
+.page4 .arrows_t2{
+    left:0;
+    top:1.58rem;
+    /*animation: fadeInRight 3s ease 2s 1 both;*/
+}
+.page4 .detail{
+    top:1.9rem;
+}
+.page4 .detail2{
+    top:1.95rem;
+}
+/*----------------------------------page5*/
+.page5 .content,.page6 .content{
+    position: relative;
+    top:2.2rem;;
+    left:0;
+    width:100%;
+    height:100%;
+    font-size: 0.32rem;
+    line-height: 0.32rem;
+}
+.page5 .content .page5_bg1,.page5 .content .page5_bg2,.page5 .content .page5_bg3{
+    position: absolute;
+    left:0.41rem;
+    width:4.86rem;
+    background: url("../img/bg_blue.svg")no-repeat;
+}
+.page5 .content .page5_bg1{
+    top:0;
+    left:0.76rem;
+    height:1.8rem;
+}
+.page5 .content .page5_bg2{
+    top:2.3rem;
+    left:0.76rem;
+    height:0.8rem;
+}
+.page5 .content .page5_bg3{
+    top:3.55rem;
+    left:0.76rem;
+    height:2.7rem;
+}
+.page5 .content .item{
+    position: absolute;
+    left:0.76rem;
+    /*animation: zoomInLeft 2s ease 0s 1 both;*/
+}
+.page5 .content .item p{
+    position: absolute;
+    display: block;
+    width: 4.4rem;
+    left:0.41rem;
+}
+.page5 .content .item .arrows_p51{
+    top:0.25rem;
+}
+.page5 .content .item .arrows_p52{
+    top:2.5rem;
+}
+.page5 .content .item .arrows_p53{
+    top:3.95rem;
+}
+/*----------------------------------page6*/
+.page6 .content .contact_email,.page6 .content .contact_tel,.page6 .content .contact_qq,.page6 .content .contact_ass{
+    position: absolute;
+    left:0.76rem;
+    font-size:0.32rem;
+    line-height: 0.32rem;
+}
+.page6 .content .contact_email{
+    top:0;
+}
+.page6 .content .contact_tel{
+    top:0.6rem;
+}
+.page6 .content .contact_qq{
+    top:1.2rem;
+}
+.page6 .content .contact_ass{
+    top:2rem;
+}
+.page6 .content .contact_email>p,.page6 .content .contact_tel>p,.page6 .content .contact_qq>p{
+    position: relative;
+    display: block;
+    top:0;
+    left:0.32rem;
+    width: 4.56rem;
+    margin-bottom:0.3rem;
+}
+.page6 .content .contact_email>p>span,.page6 .content .contact_tel>p>span,.page6 .content .contact_qq>p>span{
+    position: absolute;
+}
+.page6 .content .email2{
+    left:0.78rem;
+}
+.page6 .content .email3{
+    left:0.88rem;
+}
+.page6 .content .tel2,.page6 .content .qq2{left:0.49rem;}
+.page6 .content .tel3,.page6 .content .qq3{left:0.58rem;}
+.page6 .content .email,.page6 .content .tel,.page6 .content .qq{
+    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+}
+.page6 .content .email2,.page6 .content .tel2,.page6 .content .qq2{
+    /*animation: zoomIn 2.5s ease 0.3s 1 both;*/
+}
+.page6 .content .email3,.page6 .content .tel3,.page6 .content .qq3{
+    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+}
+.page6 .content .contact_ass .self_ass{
+    position: absolute;
+    top:0;
+    left:0.32rem;
+    width: 4.5rem;
+    /*animation: flipInX 2s ease 1.2s 1 both;*/
+}
+.page6 .content .contact_ass .self_ass>p{
+    line-height: 0.32rem;
+}
+.page6 .goodLuck{
+    position: absolute;
+    top:5.6rem;
+    right:0.2rem;
+    width:3.68rem;
+    height:3.68rem;
+    /*animation: zoomIn 1s ease 0.6s 1 both;*/
+}
+.page6 .goodLuck img{
+    width:100%;
+    height:100%;
+}
+.page6 .arrows_left{
+    top:0.08rem;
+}
+
+/*-------------------------------下方箭头*/
+@-webkit-keyframes start{
+    0%,30%{opacity:0;-webkit-transform:translate(0,10px)}
+    60%{opacity:1;-webkit-transform:translate(0,0)}
+    100%{opacity:0;-webkit-transform:translate(0,-8px)}
+}
+@-moz-keyframes start{
+    0%,30%{opacity:0;-moz-transform:translate(0,10px)}
+    60%{opacity:1;-moz-transform:translate(0,0)}
+    100%{opacity:0;-moz-transform:translate(0,-8px)}
+}
+@keyframes start{
+     0%,30%{opacity:0;transform:translate(0,10px)}
+     60%{opacity:1;transform:translate(0,0)}
+     100%{opacity:0;transform:translate(0,-8px)}
+ }
+.arrow_bottom{
+    position: absolute;
+    width: 0.24rem;
+    height: 0.14rem;
+    left: 50%;
+    bottom: 0.3rem;
+    z-index: 150;
+    margin-left: -0.07rem;
+}
+.pre_wrap{
+    width: 0.24rem;
+    height: 0.14rem;
+    position: relative;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    -moz-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
+.pre_box1, .pre_box2 {
+    position: absolute;
+    height: 0.15rem;
+    width: 0.11rem;
+    top: -0.05rem;
+    overflow: hidden;
+}
+.pre_box2 {
+    left: 0.1rem;
+}
+.pre1, .pre2 {
+    position: absolute;
+    width: 0.14rem;
+    height: 0.05rem;
+    border-radius: 0.02rem;
+    background-color: #fff;
+    box-shadow: 0.01rem -0.01rem 0.01rem #646464;
+    top: 0.05rem;
+}
+.pre1 {
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    left: 0.01rem;
+}
+.pre2 {
+    left: -0.045rem;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+/*---------------------------------------------------------------------------------*/
+#page_1 .page1,#page_2 .page2,#page_3 .page3,#page_4 .page4,#page_5 .page5,#page_6 .page6 {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s ease 0.1s;
+    transition: opacity 0.5s ease 0.1s;
+}
+#page_1 .line_bg,#page_2 .line_bg,#page_3 .line_bg,#page_4 .line_bg,#page_5 .line_bg,#page_6 .line_bg{
+    -webkit-animation: flipInY 1s ease 0s 1 both;
+    animation: flipInY 1s ease 0s 1 both;
+}
+#page_1 .title,#page_2 .title,#page_3 .title,#page_4 .title,#page_5 .title,#page_6 .title{
+    -webkit-animation: flipInX 1s ease 0.5s 1 both;
+    animation: flipInX 1s ease 0.5s 1 both;
+}
+#page_4 .arrows,#page_5 .arrows,#page_6 .arrows{
+    -webkit-animation: fadeInLeft 3s ease 0.6s 1 both;
+    animation: fadeInLeft 3s ease 0.6s 1 both;
+}
+#page_1 .yuan_bg img {
+    -webkit-animation: rotateIn 15s ease 0s 1 both;
+    animation: rotateIn 15s ease 0s 1 both;
+}
+#page_1 .resume{
+    -webkit-animation: zoomIn 1s ease 0.6s 1 both;
+    animation: zoomIn 1s ease 0.6s 1 both;
+}
+#page_1 .yuan_bg .jianli{
+    -webkit-animation: zoomIn 1s ease 0.3s 1 both;
+    animation: zoomIn 1s ease 0.3s 1 both;
+}
+#page_2 .items .items_list>li{
+    /*-webkit-animation: lightSpeedIn 3s ease 0s 1 both;*/
+    /*animation: lightSpeedIn 3s ease 0s 1 both;*/
+}
+#page_2 .items .items_list>li .items_co{
+    -webkit-animation: fadeIn 3s ease 2s 1 both;
+    animation: fadeIn 3s ease 2s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(1){
+    -webkit-animation: lightSpeedIn 3s ease 0.2s 1 both;
+    animation: lightSpeedIn 3s ease 0.2s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(2){
+    -webkit-animation: lightSpeedIn 3s ease 0.4s 1 both;
+    animation: lightSpeedIn 3s ease 0.4s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(3){
+    -webkit-animation: lightSpeedIn 3s ease 0.6s 1 both;
+    animation: lightSpeedIn 3s ease 0.6s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(4){
+    -webkit-animation: lightSpeedIn 3s ease 0.8s 1 both;
+    animation: lightSpeedIn 3s ease 0.8s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(5){
+    -webkit-animation: lightSpeedIn 3s ease 1s 1 both;
+    animation: lightSpeedIn 3s ease 1s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(6){
+    -webkit-animation: lightSpeedIn 3s ease 1.2s 1 both;
+    animation: lightSpeedIn 3s ease 1.2s 1 both;
+}
+#page_2 .items .items_list>li:nth-child(7){
+    -webkit-animation: lightSpeedIn 3s ease 1.4s 1 both;
+    animation: lightSpeedIn 3s ease 1.4s 1 both;
+}
+#page_3 .tab_item .node{
+    -webkit-animation: fadeInLeft 2s ease 0s 1 both;
+    animation: fadeInLeft 2s ease 0s 1 both;
+}
+#page_3 .tab_item .h4{
+    -webkit-animation: fadeInDown 2s ease 0s 1 both;
+    animation: fadeInDown 2s ease 0s 1 both;
+}
+#page_3 .tab_item .css2{
+    -webkit-animation: fadeInRight 2s ease 0s 1 both;
+    animation: fadeInRight 2s ease 0s 1 both;
+}
+#page_3 .tab_item .jss{
+    -webkit-animation: fadeInLeft 2s ease 0.2s 1 both;
+    animation: fadeInLeft 2s ease 0.2s 1 both;
+}
+#page_3 .tab_item .java{
+    -webkit-animation: fadeInLeft 2s ease 0.4s 1 both;
+    animation: fadeInLeft 2s ease 0.4s 1 both;
+}
+#page_3 .tab_item .h5{
+    -webkit-animation: fadeInUp 2s ease 0.4s 1 both;
+    animation: fadeInUp 2s ease 0.4s 1 both;
+}
+#page_3 .tab_item .css3{
+    -webkit-animation: fadeInRight 2s ease 0.4s 1 both;
+    animation: fadeInRight 2s ease 0.4s 1 both;
+}
+#page_3 .tab_item .cpt{
+    -webkit-animation: fadeInLeft 2s ease 0.6s 1 both;
+    animation: fadeInLeft 2s ease 0.6s 1 both;
+}
+#page_3 .tab_item .jq{
+    -webkit-animation: fadeInUp 2s ease 0.8s 1 both;
+    animation: fadeInUp 2s ease 0.8s 1 both;
+}
+#page_3 .tab_item .module{
+    -webkit-animation: fadeInUp 2s ease 0.6s 1 both;
+    animation: fadeInUp 2s ease 0.6s 1 both;
+}
+#page_3 .tab_item .git{
+    -webkit-animation: fadeInUp 2s ease 0.8s 1 both;
+    animation: fadeInUp 2s ease 0.8s 1 both;
+}
+#page_3 .tab_item .swp{
+    -webkit-animation: fadeInUp 2s ease 1s 1 both;
+    animation: fadeInUp 2s ease 1s 1 both;
+}
+#page_3 .tab_item .mobile{
+    -webkit-animation: fadeInRight 2s ease 0.8s 1 both;
+    animation: fadeInRight 2s ease 0.8s 1 both;
+}
+#page_3 .page3_bg,#page4 .page4_t,#page4 .page4_b{
+    -webkit-animation: zoomIn 2.5s ease 0.3s 1 both;
+    animation: zoomIn 2.5s ease 0.3s 1 both;
+    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+}
+/*#page4 .page4_b{
+    animation: fadeInLeft 2s ease 0.6s 1 both;
+}*/
+#page_4 .jobName{
+    -webkit-animation: zoomInDown 2s ease 0.5s 1 both;
+    animation: zoomInDown 2s ease 0.5s 1 both;
+}
+#page_4 .jobContent{
+    -webkit-animation: zoomInUp 2s ease 0.5s 1 both;
+    animation: zoomInUp 2s ease 0.5s 1 both;
+}
+#page_4 .arrows_t1{
+    -webkit-animation: fadeInRight 3s ease 2s 1 both;
+    animation: fadeInRight 3s ease 2s 1 both;
+}
+#page_4 .arrows_t2{
+    -webkit-animation: fadeInRight 3s ease 2s 1 both;
+    animation: fadeInRight 3s ease 2s 1 both;
+}
+#page_5 .content .item{
+    -webkit-animation: zoomInLeft 2s ease 0s 1 both;
+    animation: zoomInLeft 2s ease 0s 1 both;
+}
+#page_5 .content .page5_bg1,#page_5 .content .page5_bg2,#page_5 .content .page5_bg3{
+    -webkit-animation: zoomIn 2.5s ease 0.3s 1 both;
+    animation: zoomIn 2.5s ease 0.3s 1 both;
+}
+#page_6 .content .email,#page_6 .content .tel,#page_6 .content .qq{
+    -webkit-animation: fadeInLeft 2s ease 0.6s 1 both;
+    animation: fadeInLeft 2s ease 0.6s 1 both;
+}
+#page_6 .content .email2,#page_6 .content .tel2,#page_6 .content .qq2{
+    -webkit-animation: zoomIn 2.5s ease 0.3s 1 both;
+    animation: zoomIn 2.5s ease 0.3s 1 both;
+}
+#page_6 .content .email3,#page_6 .content .tel3,#page_6 .content .qq3{
+    -webkit-animation: fadeInRight 2s ease 0.8s 1 both;
+    animation: fadeInRight 2s ease 0.8s 1 both;
+}
+#page_6 .content .contact_ass .self_ass{
+    -webkit-animation: flipInX 2s ease 1.2s 1 both;
+    animation: flipInX 2s ease 1.2s 1 both;
+}
+#page_6 .goodLuck{
+    -webkit-animation: zoomIn 1s ease 0.6s 1 both;
+    animation: zoomIn 1s ease 0.6s 1 both;
+}
+
+
+
