@@ -35,8 +35,8 @@ a, a:active, a:hover, a:visited, a:target {
     color: rgb(103, 103, 103);
     transform: none;
     overflow: hidden;
-    /*animation*/
-    /*animation: flipInY 1s ease 0s 1 both;*/
+    /*animation.html*/
+    /*animation.html: flipInY 1s ease 0s 1 both;*/
 }
 .line_bg img{
     display: block;
@@ -48,7 +48,7 @@ a, a:active, a:hover, a:visited, a:target {
 .page1 .yuan_bg {
     position: absolute;
     top: 1.98rem;
-    left: 0.86rem;
+    right: 2.33rem;
     /*width:100%;
     height:100%;*/
     background-color: rgb(219, 29, 59);
@@ -62,18 +62,21 @@ a, a:active, a:hover, a:visited, a:target {
     margin-top: 0;
     margin-left: 0;
     transform: none;
-    /*animation*/
-    /*animation: rotateIn 15s ease 0s 1 both;*/
+    /*animation.html*/
+    /*animation.html: rotateIn 15s ease 0s 1 both;*/
 }
 .page1 .resume{
     position: absolute;
-    top: 7.3rem;
+    top: 8.3rem;
     left: 2.05rem;
-    width: 2.52rem;
-    height: 0.38rem;
-    font-size: 0.48rem;
+    width: 3.52rem;
+    height: 0.92rem;
     transform: none;
-    /*animation: zoomIn 1s ease 0.3s 1 both;*/
+    /*animation.html: zoomIn 1s ease 0.3s 1 both;*/
+}
+.page1 .resume h1{
+    font-size: 0.48rem;
+    line-height: 0.92rem;
 }
 .page1 .yuan_bg .jianli{
     position: absolute;
@@ -84,7 +87,7 @@ a, a:active, a:hover, a:visited, a:target {
     left: 1.54rem;
     transform: none;
     z-index: 6;
-    /*animation: zoomIn 1s ease 0.3s 1 both;*/
+    /*animation.html: zoomIn 1s ease 0.3s 1 both;*/
 }
 /*-----------------------page2*/
 .title{
@@ -97,7 +100,7 @@ a, a:active, a:hover, a:visited, a:target {
     height: 100%;*/
     font-size: 0.48rem;
     transform: none;
-    /*animation: flipInX 1s ease 0.5s 1 both;*//*bounceIn*/
+    /*animation.html: flipInX 1s ease 0.5s 1 both;*//*bounceIn*/
 }
 .title>span{
     color: rgba(204, 208, 255, 0.992157);
@@ -119,7 +122,7 @@ a, a:active, a:hover, a:visited, a:target {
     transform: rotateZ(0deg);
     opacity: 0.7;
     background: url("../img/bg_blue.svg")no-repeat;
-    /*animation: lightSpeedIn 3s ease 0s 1 both;*/
+    /*animation.html: lightSpeedIn 3s ease 0s 1 both;*/
 }
 .page2 .items .items_list>li .items_con{
     position: absolute;
@@ -127,7 +130,7 @@ a, a:active, a:hover, a:visited, a:target {
     left:0.6rem;
     font-size: 0.36rem;
     color: #fff;
-    /*animation: fadeIn 2.5s ease 0s 1 both;*/
+    /*animation.html: fadeIn 2.5s ease 0s 1 both;*/
 }
 /*-----------------------page3*/
 .page3 .page3_bg{
@@ -161,7 +164,7 @@ a, a:active, a:hover, a:visited, a:target {
     font-weight: bold;
     font-size:0.36rem;
     line-height: 0.8rem;
-    /*animation: fadeInLeft 2s ease 0s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0s 1 both;*/
 }
 .page3 .tab_item .h4{
     top:0;
@@ -170,7 +173,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.8rem;
     font-size:0.36rem;
     line-height: 0.8rem;
-    /*animation: fadeInDown 2s ease 0s 1 both;*/
+    /*animation.html: fadeInDown 2s ease 0s 1 both;*/
 }
 .page3 .tab_item .css2{
     top: 0;
@@ -179,7 +182,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.8rem;
     font-size:0.36rem;
     line-height: 0.8rem;
-    /*animation: fadeInRight 2s ease 0s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0s 1 both;*/
 }
 .page3 .tab_item .jss{
     top: 0.79rem;
@@ -188,7 +191,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:1.5rem;
     font-size:0.96rem;
     line-height: 1.5rem;
-    /*animation: fadeInLeft 2s ease 0.2s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0.2s 1 both;*/
 }
 .page3 .tab_item .java{
     top: 2.28rem;
@@ -197,7 +200,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.96rem;
     font-size:0.36rem;
     line-height: 0.96rem;
-    /*animation: fadeInLeft 2s ease 0.4s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0.4s 1 both;*/
 }
 .page3 .tab_item .h5{
     top: 2.28rem;
@@ -206,7 +209,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:1.32rem;
     font-size:0.96rem;
     line-height: 1.32;
-    /*animation: fadeInUp 2s ease 0.4s 1 both;*/
+    /*animation.html: fadeInUp 2s ease 0.4s 1 both;*/
 }
 .page3 .tab_item .css3{
     top: 2.28rem;
@@ -215,7 +218,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.78rem;
     font-size:0.36rem;
     line-height: 0.78rem;
-    /*animation: fadeInRight 2s ease 0.4s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0.4s 1 both;*/
 }
 .page3 .tab_item .cpt{
     top: 3.21rem;
@@ -224,7 +227,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.92rem;
     font-size:0.36rem;
     line-height: 0.92rem;
-    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0.6s 1 both;*/
 }
 .page3 .tab_item .jq{
     top: 3.59rem;
@@ -233,7 +236,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.53rem;
     font-size:0.32rem;
     line-height: 0.53rem;
-    /*animation: fadeInUp 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInUp 2s ease 0.8s 1 both;*/
 }
 .page3 .tab_item .module{
     top: 3.04rem;
@@ -242,7 +245,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.94rem;
     font-size:0.36rem;
     line-height: 0.94rem;
-    /*animation: fadeInUp 2s ease 0.6s 1 both;*/
+    /*animation.html: fadeInUp 2s ease 0.6s 1 both;*/
 }
 .page3 .tab_item .git{
     top: 4.11rem;
@@ -251,7 +254,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.89rem;
     font-size:0.32rem;
     line-height: 0.89rem;
-    /*animation: fadeInUp 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInUp 2s ease 0.8s 1 both;*/
 }
 .page3 .tab_item .swp{
     top: 4.11rem;
@@ -260,7 +263,7 @@ a, a:active, a:hover, a:visited, a:target {
     height:0.89rem;
     font-size:0.36rem;
     line-height: 0.89rem;
-    /*animation: fadeInUp 2s ease 1s 1 both;*/
+    /*animation.html: fadeInUp 2s ease 1s 1 both;*/
 }
 .page3 .tab_item .mobile{
     top: 3.96rem;
@@ -269,7 +272,31 @@ a, a:active, a:hover, a:visited, a:target {
     height:1.03rem;
     font-size:0.36rem;
     line-height: 1.03rem;
-    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
+}
+.page3 .tab_item .bootstrap{
+    top: 4.98rem;
+    left:0;
+    width:1.89rem;
+    height:0.8rem;
+    font-size:0.36rem;
+    line-height: 0.8rem;
+}
+.page3 .tab_item .webpack{
+    top: 4.98rem;
+    left:1.88rem;
+    width:1.81rem;
+    height:0.8rem;
+    font-size:0.36rem;
+    line-height: 0.8rem;
+}
+.page3 .tab_item .EJS{
+    top: 4.98rem;
+    right:0;
+    width:1.19rem;
+    height:0.8rem;
+    font-size:0.36rem;
+    line-height: 0.8rem;
 }
 /*----------------------------------page4*/
 .page4 .page4_bg{
@@ -281,12 +308,12 @@ a, a:active, a:hover, a:visited, a:target {
 .page4 .page4_t{
     top:1.8rem;
     left:0.76rem;
-    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
 }
 .page4 .page4_b{
     top:5.8rem;
     left:0.76rem;
-    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0.6s 1 both;*/
 }
 .page4 .jobList{
     position: absolute;
@@ -301,31 +328,31 @@ a, a:active, a:hover, a:visited, a:target {
     position: absolute;
     left:0.4rem;
     top:0.5rem;
-    /*animation: zoomInDown 2s ease 2s 1 both;*/
+    /*animation.html: zoomInDown 2s ease 2s 1 both;*/
 }
 .page4 .jobContent{
     width:4.4rem;
     position: absolute;
     left:0.4rem;
     top:1.5rem;
-    /*animation: zoomInUp 2s ease 2s 1 both;*/
+    /*animation.html: zoomInUp 2s ease 2s 1 both;*/
 }
 .arrows{
     position: absolute;
     width:0.3rem;
     height:0.2rem;
     background: url("../img/jt_bg.svg")no-repeat;
-    /*animation: fadeInLeft 3s ease 0.6s 1 both;*/
+    /*animation.html: fadeInLeft 3s ease 0.6s 1 both;*/
 }
 .page4 .arrows_t1{
     left:0;
     top:0.6rem;
-    /*animation: fadeInRight 3s ease 2s 1 both;*/
+    /*animation.html: fadeInRight 3s ease 2s 1 both;*/
 }
 .page4 .arrows_t2{
     left:0;
     top:1.58rem;
-    /*animation: fadeInRight 3s ease 2s 1 both;*/
+    /*animation.html: fadeInRight 3s ease 2s 1 both;*/
 }
 .page4 .detail{
     top:1.9rem;
@@ -367,13 +394,14 @@ a, a:active, a:hover, a:visited, a:target {
 .page5 .content .item{
     position: absolute;
     left:0.76rem;
-    /*animation: zoomInLeft 2s ease 0s 1 both;*/
+    /*animation.html: zoomInLeft 2s ease 0s 1 both;*/
 }
 .page5 .content .item p{
     position: absolute;
     display: block;
     width: 4.4rem;
     left:0.41rem;
+    line-height: 0.43rem;
 }
 .page5 .content .item .arrows_p51{
     top:0.25rem;
@@ -384,6 +412,16 @@ a, a:active, a:hover, a:visited, a:target {
 .page5 .content .item .arrows_p53{
     top:3.95rem;
 }
+.page5 .content .item .arrows_now1{
+    top:0.35rem;
+}
+.page5 .content .item .arrows_now2{
+    top:2.6rem;
+}
+.page5 .content .item .arrows_now3{
+    top:4.05rem;
+}
+
 /*----------------------------------page6*/
 .page6 .content .contact_email,.page6 .content .contact_tel,.page6 .content .contact_qq,.page6 .content .contact_ass{
     position: absolute;
@@ -423,31 +461,31 @@ a, a:active, a:hover, a:visited, a:target {
 .page6 .content .tel2,.page6 .content .qq2{left:0.49rem;}
 .page6 .content .tel3,.page6 .content .qq3{left:0.58rem;}
 .page6 .content .email,.page6 .content .tel,.page6 .content .qq{
-    /*animation: fadeInLeft 2s ease 0.6s 1 both;*/
+    /*animation.html: fadeInLeft 2s ease 0.6s 1 both;*/
 }
 .page6 .content .email2,.page6 .content .tel2,.page6 .content .qq2{
-    /*animation: zoomIn 2.5s ease 0.3s 1 both;*/
+    /*animation.html: zoomIn 2.5s ease 0.3s 1 both;*/
 }
 .page6 .content .email3,.page6 .content .tel3,.page6 .content .qq3{
-    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
 }
 .page6 .content .contact_ass .self_ass{
     position: absolute;
     top:0;
     left:0.32rem;
     width: 4.5rem;
-    /*animation: flipInX 2s ease 1.2s 1 both;*/
+    /*animation.html: flipInX 2s ease 1.2s 1 both;*/
 }
 .page6 .content .contact_ass .self_ass>p{
-    line-height: 0.32rem;
+    line-height: 0.33rem;
 }
 .page6 .goodLuck{
     position: absolute;
-    top:5.6rem;
+    top:5.8rem;
     right:0.2rem;
     width:3.68rem;
     height:3.68rem;
-    /*animation: zoomIn 1s ease 0.6s 1 both;*/
+    /*animation.html: zoomIn 1s ease 0.6s 1 both;*/
 }
 .page6 .goodLuck img{
     width:100%;
@@ -550,8 +588,9 @@ a, a:active, a:hover, a:visited, a:target {
     animation: zoomIn 1s ease 0.3s 1 both;
 }
 #page_2 .items .items_list>li{
-    /*-webkit-animation: lightSpeedIn 3s ease 0s 1 both;*/
-    /*animation: lightSpeedIn 3s ease 0s 1 both;*/
+    position:relative;
+    /*-webkit-animation.html: lightSpeedIn 3s ease 0s 1 both;*/
+    /*animation.html: lightSpeedIn 3s ease 0s 1 both;*/
 }
 #page_2 .items .items_list>li .items_co{
     -webkit-animation: fadeIn 3s ease 2s 1 both;
@@ -637,14 +676,30 @@ a, a:active, a:hover, a:visited, a:target {
     -webkit-animation: fadeInRight 2s ease 0.8s 1 both;
     animation: fadeInRight 2s ease 0.8s 1 both;
 }
+#page_3 .tab_item .bootstrap{
+    -webkit-animation: fadeInUp 2s ease 0.8s 1 both;
+    animation: fadeInUp 2s ease 0.8s 1 both;
+}
+#page_3 .tab_item .webpack{
+    -webkit-animation: lightSpeedIn 2s ease 0.8s 1 both;
+    animation: lightSpeedIn 2s ease 0.8s 1 both;
+}
+#page_3 .tab_item .EJS{
+    -webkit-animation: fadeInRight 2s ease 0.8s 1 both;
+    animation: fadeInRight 2s ease 0.8s 1 both;
+}
 #page_3 .page3_bg,#page4 .page4_t,#page4 .page4_b{
     -webkit-animation: zoomIn 2.5s ease 0.3s 1 both;
     animation: zoomIn 2.5s ease 0.3s 1 both;
-    /*animation: fadeInRight 2s ease 0.8s 1 both;*/
+    /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
 }
 /*#page4 .page4_b{
-    animation: fadeInLeft 2s ease 0.6s 1 both;
+    animation.html: fadeInLeft 2s ease 0.6s 1 both;
 }*/
+#page_4 .page4_bg{
+    -webkit-animation: zoomIn 2s ease 0.3s 1 both;
+    animation: zoomIn 2s ease 0.3s 1 both;
+}
 #page_4 .jobName{
     -webkit-animation: zoomInDown 2s ease 0.5s 1 both;
     animation: zoomInDown 2s ease 0.5s 1 both;

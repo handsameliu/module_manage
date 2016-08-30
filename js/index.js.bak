@@ -36,7 +36,7 @@ new Swiper(".swiper-container", {
     }
 });
 
-/*new Swiper(".swiper-container", {
+new Swiper(".swiper-container", {
     direction: "vertical",
     loop: true,
     onSlideChangeEnd: function (swiper) {
@@ -58,4 +58,4 @@ new Swiper(".swiper-container", {
             }
         }
     }
-});*/
+});
