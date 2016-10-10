@@ -299,14 +299,31 @@ a, a:active, a:hover, a:visited, a:target {
     line-height: 0.8rem;
 }
 /*----------------------------------page4*/
-.page4 .page4_bg{
+.page4 .page4_bg1{
     position: absolute;
     width: 4.86rem;
-    height: 3.6rem;
+    height: 1.8rem;
+    background: url("../img/bg_blue.svg")no-repeat;
+}
+.page4 .page4_bg2{
+    position: absolute;
+    width: 4.86rem;
+    height: 1.1rem;
+    background: url("../img/bg_blue.svg")no-repeat;
+}
+.page4 .page4_bg3{
+    position: absolute;
+    width: 4.86rem;
+    height: 3.9rem;
     background: url("../img/bg_blue.svg")no-repeat;
 }
 .page4 .page4_t{
     top:1.8rem;
+    left:0.76rem;
+    /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
+}
+.page4 .page4_c{
+    top:4rem;
     left:0.76rem;
     /*animation.html: fadeInRight 2s ease 0.8s 1 both;*/
 }
@@ -331,11 +348,19 @@ a, a:active, a:hover, a:visited, a:target {
     /*animation.html: zoomInDown 2s ease 2s 1 both;*/
 }
 .page4 .jobContent{
+    font-size: 0.32rem;
     width:4.4rem;
     position: absolute;
     left:0.4rem;
-    top:1.5rem;
+    top:0.4rem;
     /*animation.html: zoomInUp 2s ease 2s 1 both;*/
+}
+.page4 .jobContents{
+    font-size: 0.32rem;
+    width:4.4rem;
+    position: absolute;
+    left:0.4rem;
+    top:0.6rem;
 }
 .arrows{
     position: absolute;
@@ -351,9 +376,15 @@ a, a:active, a:hover, a:visited, a:target {
 }
 .page4 .arrows_t2{
     left:0;
-    top:1.58rem;
+    top:0.5rem;
     /*animation.html: fadeInRight 3s ease 2s 1 both;*/
 }
+.page4 .arrows_t3{
+    left:0;
+    top:0.7rem;
+    /*animation.html: fadeInRight 3s ease 2s 1 both;*/
+}
+
 .page4 .detail{
     top:1.9rem;
 }
@@ -389,7 +420,7 @@ a, a:active, a:hover, a:visited, a:target {
 .page5 .content .page5_bg3{
     top:3.55rem;
     left:0.76rem;
-    height:2.7rem;
+    height:3.8rem;
 }
 .page5 .content .item{
     position: absolute;
@@ -696,7 +727,7 @@ a, a:active, a:hover, a:visited, a:target {
 /*#page4 .page4_b{
     animation.html: fadeInLeft 2s ease 0.6s 1 both;
 }*/
-#page_4 .page4_bg{
+#page_4 .page4_bg1,#page_4 .page4_bg2,#page_4 .page4_bg3{
     -webkit-animation: zoomIn 2s ease 0.3s 1 both;
     animation: zoomIn 2s ease 0.3s 1 both;
 }
@@ -704,7 +735,7 @@ a, a:active, a:hover, a:visited, a:target {
     -webkit-animation: zoomInDown 2s ease 0.5s 1 both;
     animation: zoomInDown 2s ease 0.5s 1 both;
 }
-#page_4 .jobContent{
+#page_4 .jobContent,#page_4 .jobContents{
     -webkit-animation: zoomInUp 2s ease 0.5s 1 both;
     animation: zoomInUp 2s ease 0.5s 1 both;
 }
